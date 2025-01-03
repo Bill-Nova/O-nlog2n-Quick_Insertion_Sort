@@ -18,7 +18,7 @@ int main(){
 		goto End;
 	}
 	
-	int* Input_Add=(int*)malloc(Input_Max*sizeof(int));	//!!!	Hypothesis Non-existent! one tiem one input 	!!!
+	int* Input_Add=(int*)malloc(Input_Max*sizeof(int));	//!!!	Hypothesis Non-existent! one time one input 	!!!
 	if(Input_Add==NULL){ 					//!!!	In order to printf("Input(rand()%10)=\n");  	!!!
 		printf("ERR!!!");				//!!!			Non-existent Add		!!!
 		goto End;
